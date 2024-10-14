@@ -15,7 +15,7 @@ pip install -r requirements.txt
 - Install Rasa
 ```bash
 pip install uv
-uv pip install rasa
+uv pip install rasa==3.1
 ```
 
 ## 🧪 Testing
