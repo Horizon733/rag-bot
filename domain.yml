@@ -1,0 +1,8 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+
+actions:
+  - action_default_fallback

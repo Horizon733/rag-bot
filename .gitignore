@@ -1,0 +1,51 @@
+# Standard Ignores
+venv
+.venv
+__pycache__/
+.DS_Store
+.vscode/
+.history/
+.pytype/
+.pytest_cache/
+
+# Rasa Ignores
+*.db-*
+rasa.db*
+*.db
+results/
+models/
+snow_connector.py
+chatroom/
+.idea/
+.rasa/
+.cache/
+.local/
+.keras/
+.global/
+*.zip
+*.log
+
+.env*
+.python-version
+
+# mlflow
+mlruns/
+mlartifacts/
+
+# pytest html report
+assets/
+.report.json
+report.html
+
+# vector store
+qdrant/
+qdrant_storage/
+
+# traftrafilatura
+htmlbackup/
+txtfiles/
+
+# Build files
+build/
+
+custom/chat.py
